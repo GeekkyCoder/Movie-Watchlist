@@ -4,7 +4,7 @@
 
 # Made with HTML,CSS, JAVASCRIPT
 
-# Fearures:
+# Features:
  1) Search for your favorite movies 🎬
  2) add them to your watchlist
  3) remove them from your watchlist
