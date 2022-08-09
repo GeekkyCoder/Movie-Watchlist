@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: white;
+}
+
+h1 {
+  /* font-size: 2rem; */
+  font-weight: 500;
+  color: antiquewhite;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.4em;
+  background-image: url("/images/movie.png");
+  background-size: cover;
+  height: 150px;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(90, 85, 85);
+  background-blend-mode: multiply;
+}
+
+.header-div .titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titles h1 {
+  color: whitesmoke;
+  text-shadow: 0px 0px 2px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.my-watchlist-link {
+  text-decoration: none;
+  color: #ddebf8;
+}
+
+.my-watchlist-link:hover{
+  color: rgb(240, 220, 220);
+  font-weight: bold;
+}
+
+.header-div .user-inputs {
+  display: flex;
+  margin: 1em auto;
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  margin: 0.1em;
+  width: 50%;
+}
+
+.user-inputs input {
+  display: inline-block;
+  width: 86%;
+  padding: 0.6em 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 1rem;
+  background: beige;
+  margin-right: 0.1em;
+}
+
+.user-inputs input:focus {
+  outline: none;
+}
+
+.user-inputs .btn {
+  display: inline-block;
+  width: 76px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  padding: 0.4em;
+  margin-right: 0.7em;
+  cursor: pointer;
+  background: #4b4b4b;
+  color: white;
+  border: none;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: #6b7280;
+}
+
+.btn:active{
+  transform: translateY(4px);
+  background-color: #2b283a;
+}
+
+/* movies section  */
+
+.movies-container {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  margin: 2em 200px;
+  justify-content: center;
+}
+
+#default-view {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  height: 70vh;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#default-view h3 {
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.default-preview-movie {
+  height: 120px;
+  object-fit: cover;
+}
+
+.movie-wallpaper {
+  width: 200px;
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+.movie-wallpaper img {
+  width: 100%;
+  min-height: 50%;
+  object-fit: cover;
+}
+
+.movie-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9em 0;
+  margin-left: 0.5em;
+  padding: 0.4em;
+  height: 250px;
+  justify-content: center;
+}
+
+.name-rating-box {
+  display: flex;
+  align-items: center;
+}
+
+.name-rating-box .movie-name {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-right: 0.4em;
+}
+
+.name-rating-box .star-png {
+  width: 15px;
+  margin-right: 0.2em;
+}
+
+.name-rating-box .ratings {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.movie-titles-container {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.8rem;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: -0.3em;
+  color: aliceblue;
+}
+
+.watchlist-btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.watchlist-btn-box .plus-icon {
+  width: 17px;
+  margin-right: 0.3em;
+}
+
+.watchlist-btn-box .watchlist-btn {
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0.2em;
+}
+
+.watchlist-btn:focus {
+  outline: none;
+}
+
+.storyline {
+  width: 400px;
+  color: #6b7280;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color:azure;
+}
+
+/* Setter  */
+#movies-section {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 5em;
+}

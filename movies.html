@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Watchlist</title>
+    <link rel="stylesheet" href="./movie.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-div container">
+        <div class="titles">
+          <h1>Find your film</h1>
+          <a class="my-watchlist-link" href="./watchlist.html">My Watchlists</a>
+        </div>
+        <div class="user-inputs">
+          <input id="inputEl" type="text" placeholder="search for a movie" />
+          <button class="btn" id="searchBtn">Search</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="movies-section">
+        <div id="default-view">
+          <img
+            class="default-preview-movie"
+            src="./images/default-preview.png"
+            alt="default-preview-img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="./movie.js"></script>
+  </body>
+</html>

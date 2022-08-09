@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+
+.default-view {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  height: 70vh;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.header-div .titles h1 {
+  color: antiquewhite;
+  font-size: 2rem;
+}
+
+.default-view h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.default-view img {
+  width: 24px;
+  margin-right: 0.5em;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.default-view p {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: limegreen;
+}
+
+.default-view .d-flex {
+  display: flex;
+  align-items: center;
+}
