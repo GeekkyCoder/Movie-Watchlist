@@ -208,8 +208,24 @@ h1 {
   border: none;
   font-weight: bold;
   cursor: pointer;
-  color: #6b7280;
   padding: 0.2em;
+}
+
+.watchlist-btn{
+ color:#2b283a;
+ transition: transform 250ms;
+ margin-left: .5em;
+ padding: .5em 1em;
+}
+
+.watchlist-btn:hover{
+  background-color: #ddebf8;
+}
+
+.watchlist-btn:active{
+  background-color: #2b283a;
+  color: white;
+  transform: scale(1.2);
 }
 
 .watchlist-btn:focus {
